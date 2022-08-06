@@ -1,17 +1,24 @@
 package com.company.LinkedList;
 
 import com.company.Stack.Stack;
+import com.company.Utils.AbstractProblem;
 
 import java.sql.SQLOutput;
 
 /**
  * Implement stack using linked List
  */
-public class Problem1 {
+public class Problem1 extends AbstractProblem {
     Stack<Integer> stack;
     public Problem1() {
         stack = new SinglyLinkedListStack<>();
     }
+
+    @Override
+    public void takeInput() {
+
+    }
+
     public void runTests() {
         testPush();
         testPop();
