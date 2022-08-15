@@ -1,9 +1,6 @@
 package com.company;
 
-import com.company.LinkedList.Problem1;
-import com.company.LinkedList.Problem2;
-import com.company.LinkedList.Problem3;
-import com.company.LinkedList.Problem5;
+import com.company.LinkedList.*;
 import com.company.Utils.AbstractProblem;
 
 import java.util.ArrayList;
@@ -21,8 +18,10 @@ public class Main {
         //problem2.run();
 //        AbstractProblem problem3 = new Problem3();
 //        problem3.run();
-        AbstractProblem problem5 = new Problem5();
-        problem5.run();
+//        AbstractProblem problem5 = new Problem5();
+//        problem5.run();
+        AbstractProblem problem6 = new Problem6();
+        problem6.run();
 
     }
 }
